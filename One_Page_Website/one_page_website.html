@@ -4,52 +4,55 @@
 	<title>The Bikeshop</title>
 	<meta charset="utf-8">
 	<meta name="description" content="The Bikeshop Home">
-</head>
-	<!--HEADER-->
+	<link rel="stylesheet" href="css/style.css" >
+<body>
+	<!--NAVBAR-->
+	   <nav class="nav-bar">
+            <ul>
+			     <li><a href="#">Home</a></li>
+				 <li><a href="#b1">The Dark Knight</a></li>
+				 <li><a href="#b2">The Puncher</a></li>	
+				 <li><a href="#Video">Take a ride!</a></li>
+				 <li style="float:right"><a class="active" href="#Contact">Contact Us</a></li>
+			</ul>
+		</nav>
+			<!--HEADER-->
 		<header>
 			<div>
 				<h1>Welcome to The Bikeshop!</h1>
 			</div>
 		</header>
-<body>
-	<!--NAVBAR-->
-	   <nav>
-            <ul>
-                <a href="#bb1"><li>Baby Bike 1</li></a>
-                <a href="#bb2"><li>Baby Bike 2</li></a>
-				<a href="#Video"><li>Bike Video</li></a>
-            </ul>
-		</nav>
-			<!--Bike Images-->
+			<!--Images-->
 		<section>
 			<div>
 				<h2>Choose a Bike!</h2>
 				<div>
 		</section>
-			<!--BABYBIKE IMAGE-->
-			<div id="bb1">
-				<h3>Baby Bike 1</h3>
-				<img src="imagesbike/Babybike.jpeg" alt="Picture of babybike">
+			<!--IMAGE 1-->
+			<div id="b1">
+				<h2>The Dark Knight</h2>
+				<img src="imagesbike/bike1.jpeg" alt="Picture of motorcycle">
 			</div>
-			<!--BABYBIKE2 IMAGE-->
-			<div id="bb2">
-				<h3>Baby Bike 2</h3>
-				<img src="imagesbike/babybike2.jpeg" alt="Picture of babybike2">
+			<!--IMAGE 2-->
+			<div id="b2">
+				<h2>The Puncher</h2>
+				<img src="imagesbike/bike2.jpeg" alt="Picture of motorcycle">
 			</div>
 			</section>
 			<!--BIKE VIDEO-->
 			<section>
 			<div id="Video">
-				<h3> Bike Video</h3>
-				<iframe width="1280" height="720" src="https://www.youtube.com/embed/sOpm6E1lnpc?si=tE9zo7cs1VMgh_6A"></iframe>
+				<h2>Take a ride!</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/H72VAv6kzN8?si=7Ha1LuIPX12HGuF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			</div>
 			</section>
-			  <!--FORM-->
+			  <!--CONTACT FORM-->
          <section>
-            <div>
-                <h3>Please provide your contact information
+            <div id="Contact">
+				<h3> Contact US!</h3>
+                <p>Please provide your contact information
                     and a brief message of your inquiry.
-                </h3>
+                </p>
                 <div>
                     <form>
                         <input type="text" placeholder="First Name">

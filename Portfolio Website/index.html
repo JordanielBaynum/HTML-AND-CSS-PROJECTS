@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <!--HEAD-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width" />
+    <title>Jordaniel Baynum</title>
+    <link rel="stylesheet" href="css/portfolio.css" />
+  </head>
+  <!--BODY-->
+  <body class="Background">
+    <!--NAVBAR-->
+    <nav class="Navbar">
+      <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gitHub">GitHub</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!--Breaks inserted to add space between navbar and the first heading-->
+    <br>
+    <br>
+
+    <!--BACKGROUND VIDEO-->
+    <div id="Home">
+      <video autoplay muted loop id="ai_video">
+        <source src="images/videos/aiii.mp4" type="video/mp4" />
+        <!--DISPLAY MESSAGE IF VIDEO FAILS TO RUN-->
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <!--VIDEO TEXT-->
+    <div class="Video_text">
+      <h1 class="notwhite-text">Jordaniel Baynum</h1>
+      <strong>
+        <p class="center">
+          <q>Empty your mind, be formless, shapeless, like water. <br> Now you put water into a cup, it becomes the cup; you put it into a teapot,<br> it becomes the teapot. Now water can flow or it can crash. Be water, my friend!
+          </q>
+          <br>
+          -Bruce Lee
+          <br>
+          <br>
+          Hello! I am Jordaniel Baynum. Welcome to my portfolio website.
+          <br>
+          <br>
+        </p>
+      </strong>
+    </div>
+    <!--ABOUT SECTION-->     
+  <div class="Row" id="about">
+            <!--LEFT COLUMN-->
+            <div class="Column_2">
+                <img src="images/html_custom.png" alt="Replace with your own image and description">
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>              
+                    With over 6 years in Human Resources, I've transitioned into AI software development, blending human-centered insights with cutting-edge solutions.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s AI Developer Boot Camp, I am proficient in HTML, CSS, JavaScript, SQL, Python, and more. Currently, I'm expanding my expertise in machine learning, data modeling, and AI frameworks.
+                    <br>
+                    <br>As a full-stack developer, I am eager to collaborate on innovative projects that bridge the gap between human strategy and technological advancement.<br>
+                    <br> <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+        <!--GITHUB SECTION-->
+        <div class="Row" id="gitHub">
+            <!--LEFT COLUMN-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    <h1>View my work on GitHub:</h1>
+                    <p class="center"><a href="https://github.com/JordanielBaynum" target="_blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_2">
+                <a href="https://github.com/JordanielBaynum" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+        <!--CONTACT-->
+        <div class="Row" id="contact">
+            <!--CONTACT IMAGE, LEFT COLUMN-->
+            <div class="Column_2 Column_tall">
+                <img src="images/contact.png" alt="Contact_Image">
+            </div>
+            <!--CONTACT FORM, RIGHT COLUMN-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here...">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <!--FOOTER-->
+        <footer>
+            <p>
+              <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+              <br>
+            </p>
+        </footer>
+    </body>
+</html>

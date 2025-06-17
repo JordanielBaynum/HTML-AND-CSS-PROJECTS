@@ -1,0 +1,39 @@
+/*! Set the base font and center-align all text in the HTML document */
+html {
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+}
+
+body { /*! Limit the body width to 500px and center it horizontally */
+    max-width: 500px;
+    margin: 0 auto;
+}
+/*! Limit the input field width and center it horizontally */
+input {
+    max-width: 500px;
+    margin: 0 auto;
+}
+ 
+    input:focus { /*! Remove the default blue outline when an input is focused (clicked) */
+        outline: none;
+    }
+li {  /*! Style list items to be left-aligned, large, and without bullet points */
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+/*! Footer container */
+footer {
+  border-top: 2px solid #333; /*! Top border across full screen */
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw; /*! Ensures it spans the full width of the screen */
+  left: 0; /*! Ensures it's flush with the left side */
+  color: white;
+  margin: 0;
+}

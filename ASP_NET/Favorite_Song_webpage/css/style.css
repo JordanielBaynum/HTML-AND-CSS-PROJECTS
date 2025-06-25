@@ -1,0 +1,22 @@
+/*! Set background and font styling for the page */
+body {
+    background-color: lightskyblue;  /* !Light blue background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+/*! Style the heading */
+h1 {
+    color: #2c3e50;  /*! Dark slate blue */
+}
+
+/*! Style the animated box */
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red; /*! red */
+    margin: 30px auto;         /*! Center horizontally */
+    border-radius: 10px;       /*! Rounded corners */
+    position: relative;        /*! Needed for moving with JavaScript */
+}
